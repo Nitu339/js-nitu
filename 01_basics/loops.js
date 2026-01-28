@@ -35,11 +35,28 @@ while(i<=10){
 
 //do-while loop
 
-let i=8
+/*let i=8
 ;
 
 do{
     console.log("Apna  college");
     i++;
     
-}while(i<=10);
+}while(i<=10);*/
+
+//for in loop used for objects and array
+
+let student={
+    name: "Rajeev kumar",
+    age:27,
+    cgpa:25,
+    ispass:true,
+
+};
+
+for(let i in student){
+    //console.log(i); // to print key
+    console.log("key",key,"VALUE",student(key));
+    
+    
+}
