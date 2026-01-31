@@ -43,11 +43,38 @@ console.log("The average of marks is",average); */
 
 // ques2
 
-let items=[250,645,270,810,50];
+/*let items=[250,645,270,810,50];
 for(let i=0;i<items.length;i++){
     let offer=items[i]/10;
     items[i] -=offer;
     console.log(items);
     
-}
+}*/
+
+//Array methods
+
+//Pop() used to remove an element from the end of an array
+
+//let foodItems=["Paneer tikka","chicken lolipop","BIRYANI","cutlet","sandwich"];
+//console.log(foodItems);
+
+//let deletedItems=foodItems.pop();
+//console.log(foodItems);
+
+//push() to add new elements in an array
+
+//foodItems.push("chips","burger","pizza","fried rice");
+//console.log(foodItems);
+
+//to string  (converts an array into string)
+/*let fruits=["Mango","Litchi","Orange","gauva","Papaya","grapes"];
+console.log(fruits);
+console.log(fruits.toString()); // array converted into strings
+console.log(fruits);*/ // original array doesn't changes, this chages reflects only on new array
+
+let marks=[89,56,90,79,80,98]
+console.log(marks.toString());
+
+
+
 
