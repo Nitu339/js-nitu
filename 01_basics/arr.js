@@ -71,9 +71,44 @@ for(let i=0;i<items.length;i++){
 console.log(fruits);
 console.log(fruits.toString()); // array converted into strings
 console.log(fruits);*/ // original array doesn't changes, this chages reflects only on new array
-
+/*
 let marks=[89,56,90,79,80,98]
-console.log(marks.toString());
+//console.log(marks.toString());
+
+let marvelHeros=["thor","spiderman","ironman","antman","superman"];
+let dc_heros=["superman","batman"];
+
+let heros=marvelHeros.concat(dc_heros);
+//console.log(heros);
+
+//unshift add elements to the beginning of an array
+
+marvelHeros.unshift("antman","shaktiman");
+//console.log(marvelHeros);
+
+//shift remeoves elements from the begining of an array
+
+let val=marvelHeros.shift();
+//console.log("deleted",val);
+
+//slice return a piece of an array slice(start idx,end idx)
+//
+//console.log(marverHeros.slice(0,4));
+
+//splice changes original array (add,remove,replace)*/
+
+let arr=[1,2,3,4,5,6,7];
+//splice(start idx,delcount,newelement
+// //
+//lice[3,4,100,101,102,104];
+arr.splice(2,2,101,102);
+console.log(arr);
+
+
+
+
+
+
 
 
 
