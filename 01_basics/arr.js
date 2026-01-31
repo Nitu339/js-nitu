@@ -97,12 +97,36 @@ let val=marvelHeros.shift();
 
 //splice changes original array (add,remove,replace)*/
 
-let arr=[1,2,3,4,5,6,7];
+/*let arr=[1,2,3,4,5,6,7];
 //splice(start idx,delcount,newelement
 // //
 //lice[3,4,100,101,102,104];
-arr.splice(2,2,101,102);
+  //arr.splice(2,2,101,102);
+//console.log(arr);
+
+//add element 
+arr.splice(0,0,0)
+//console.log(arr);
+
+//delete element
+
+arr.splice(3,2);
+//console.log(arr);
+
+//replace
+
+arr.splice(1,1,101);
 console.log(arr);
+*/
+
+//que1
+
+let companies=["Microsoft","Amazon","flipkart","bloomberg","uber","google","IBM"];
+//companies.shift(); REMOVE MICROSOFT
+//companies.splice(4,1,"OLA"); REPLCAE UBER TO OLA
+companies.push("Cognizant")
+console.log(companies);
+
 
 
 
